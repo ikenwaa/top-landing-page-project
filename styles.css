@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgba(85, 85, 85, 0.37), rgba(0, 0, 0, 0.7)), url(img/marijuana.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+/* img {
+    max-width: 100%;
+    width: 250px;
+    height: auto;
+} */
+
+h1, h2 {
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+nav {
+    position:relative;
+}
+
+.navbar {
+    color: #fff;
+    /* background: #eee; */
+    height: 65px;
+    
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+    
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.navbar .logo {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 100%;
+    position: fixed; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    box-shadow: 0 2px 2px #e8e8e8;
+}
+
+.header {
+    color: #fff;
+    min-height: 400px;
+}
+
+.hero-text {
+    height: 10rem;
+    display: block;
+} 
+
+.header h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+.header img {
+    max-width: 400px;
+    height:300px;
+    width: 300px;
+    margin-top: 0 auto;
+}
+
+.header button {
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.header button a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
