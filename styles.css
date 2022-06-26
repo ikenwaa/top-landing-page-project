@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: linear-gradient(rgba(85, 85, 85, 0.37), rgba(0, 0, 0, 0.7)), url(img/marijuana.jpg);
+    background-image: linear-gradient(rgba(85, 85, 85, 0.37), rgba(0, 0, 0, 0.7)), url("https://images.unsplash.com/photo-1597266028934-0f9a87d80850");
     background-size: cover;
     background-position: center;
     height: 100%;
